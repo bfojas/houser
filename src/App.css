@@ -1,5 +1,7 @@
 .App {
+  
   text-align: center;
+  background-image: url('https://www.marriedwithmoney.com/wp-content/uploads/2017/06/house-768x524.jpeg')
 }
 
 .App-logo {
@@ -29,4 +31,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mapContainer {
+  background-color: green;
+  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  width: 80%;
+}
+.head{
+  font-weight: bold;
+  font-Size: 20px;
+  align-content: center;
+  text-justify: left;
+  width:100%;
+  height: 100px;
+}
+.houseList{
+
+}
+.housepic{
+  flex: 3;
+}
+
+.houseDataOne {
+  color: white;
+  
+  flex:3;
+}
+
+.houseDataTwo {
+  color:white;
+  flex: 3;
 }
